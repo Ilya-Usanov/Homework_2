@@ -9,13 +9,13 @@ public class CoffeeHouse {
 
     public void setPreference() {
         if (preference.equals(Preference.CAPPUCHINO) && volume >= 50 && volume <= 500) {
-            System.out.println("Доброго дня и вот Ваш " + preference);
+            System.out.println("Доброго Вам дня и вот Ваш " + preference);
         }
         if (preference.equals(Preference.LATTE) && volume >= 50 && volume <= 500) {
-            System.out.println("Доброго дня и вот Ваш " + preference);
+            System.out.println("Доброго Вам дня и вот Ваш " + preference);
         }
         if (preference.equals(Preference.AMERICANO) && volume >= 50 && volume <= 500) {
-            System.out.println("Доброго дня и вот Ваш " + preference);
+            System.out.println("Доброго Вам дня и вот Ваш " + preference);
         } else if (volume > 500) {
             System.out.println("К сожалению, мы не располагаем стаканчиками объемом более 500 мл, " +
                     "но мы обязательно учтем Ваши предпочтения в будущем!");
